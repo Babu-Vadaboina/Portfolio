@@ -18,7 +18,6 @@ const Hero = () => {
             </h1>
             <h1>specializing in building </h1>
             <h1>complex products.</h1>
-            <div className="hero-connect">Resume</div>
           </div>
           {/* Flex Item 2: The image is now a direct child */}
           <img src={profilepic} alt="Profile" className="hero-image" />
@@ -26,9 +25,12 @@ const Hero = () => {
       </div>
       <div className="section-two">
         <div className="knowmore">
-          <p>With experience across industries, I help teams</p>
-          <p>simplify workflows, scale products, and deliver</p>
-          <p>real-world solutions.</p>
+          <div className="text-1">
+            <p>
+              With experience across industries, I help teams simplify
+              workflows, scale products, and deliver real-world solutions.
+            </p>
+          </div>
           <div className="hero-connect">
             <a href="">Know more</a>
           </div>

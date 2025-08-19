@@ -6,9 +6,9 @@
   flex-direction: column;
   align-items: left;
   justify-content: space-between;
-  padding: 10px 50px;
+  padding: 10px 10px;
   margin: 50px auto;
-  background-color: #e8dfcc;
+  background-color: #efece5;
   width: 80%;
   height: auto;
 }
@@ -16,20 +16,35 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  padding: 10px 20px;
-  background-color: #edeae4;
+  width: 95%;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
+  background-color: #f8f6f2;
   border-radius: 10px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   color: #2f2f2f;
 }
 .availability {
-  background-color: #f0ece4;
+  background-color: #f8f6f2;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #7cc361;
 }
 .availability span {
-  border: solid 1px #2f2f2f;
+  position: relative;
   border-radius: 40px;
-  padding: 10px;
+  padding: 20px 20px 20px 50px;
+}
+.availability span::before {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: currentColor;
+  border-radius: 50%;
 }
 .first-section {
   display: flex;
@@ -46,8 +61,38 @@
   flex-direction: column;
   gap: 20px;
 }
+.hero-text h1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 50px;
+  color: #2f2f2f;
+  font-weight: 100;
+}
+.hero-text h1 span {
+  font-family: "montserrat", sans-serif;
+  font-weight: 100;
+  color: #7d634f; /* Highlight color */
+}
 .hero-image {
   width: 400px;
   height: 400px;
   border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+.section-two {
+  margin: 10px;
+}
+.text-1 {
+  padding: 10px 20px 0px 20px;
+  width: 50%;
+  font-size: 20px;
+  color: #2f2f2f;
+}
+
+.hero-connect {
+  padding: 10px 20px;
+}
+.hero-connect a {
+  text-decoration: none;
+  color: #96773d;
 }

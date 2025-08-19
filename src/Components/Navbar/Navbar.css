@@ -7,16 +7,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 15px 20px 15px;
-  background: #e8dfcc;
-  border-radius: 0px 0px 10px 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  margin: 10px 0px;
+  padding: 20px 20px 20px 15px;
+  background: #efece5;
+  border-style: none;
   font-family: "Outfit", sans-serif; /* A modern font. You may need to import it in your index.html or index.css */
 }
 
 .logo {
   width: 150px;
   cursor: pointer;
+}
+.logo a {
+  text-decoration: none;
+  color: #2f2f2f; /* Dark color for the logo text */
 }
 
 .nav-menu {
@@ -31,7 +35,7 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  color: #2f2f2f;
+  color: #353434;
   text-decoration: none; /* In case you change li to a tags */
   cursor: pointer;
   position: relative;
@@ -39,14 +43,14 @@
 }
 
 .nav-item:hover {
-  color: white;
+  color: #100505;
 }
 
 .nav-item::after {
   content: "";
   width: 0;
   height: 3px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(267deg, #b6b2ae 0.36%, #100505 102.06%);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -60,8 +64,8 @@
 
 .nav-connect {
   padding: 10px;
-  border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+
+  background: #000000;
   color: white;
   font-size: 22px;
   font-weight: 500;

@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src={logo} alt="Logo" className="logo" />
+        <a href="">
+          <h1>BV</h1>
+        </a>
       </div>
       <div className="menu">
         <ul className="nav-menu">
@@ -14,7 +16,7 @@ const Navbar = () => {
           <li className="nav-item">Contact</li>
           <li className="nav-item">Resume</li>
         </ul>
-        <div className="nav-connect">Connect with me</div>
+        <div className="nav-connect">Get in touch</div>
       </div>
     </div>
   );
